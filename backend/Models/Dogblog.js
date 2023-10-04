@@ -5,6 +5,11 @@ const DogAdoptionSchema = new Schema({
   dogType: {
     type: String,
     required: true,
+    
+    slug: {
+      type: String,
+      //required: true,
+    },
   },
   picture: {
     type: Schema.Types.Mixed,

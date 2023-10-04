@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); // Parse JSON bodies
 app.use(cors()); // Enable CORS for all origins
 app.use(morgan('dev')); // Logging for development
+app.use("/uploads", express.static("uploads"));
 
 // Test route to fetch dog adoptions
 app.get('/api/dogadoptions', async (req, res) => {
