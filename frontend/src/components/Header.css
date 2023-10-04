@@ -1,0 +1,45 @@
+/* Styling for the header component */
+.header {
+    background-color: #1e88e5; /* Set your background color */
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add some spacing between the image and text */
+  }
+  
+  .nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between navigation items */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style navigation links on hover */
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
