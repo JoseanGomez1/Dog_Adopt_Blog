@@ -1,0 +1,103 @@
+[
+    {
+      "dogType": "Labrador Retriever",
+      "picture": "labrador.jpg",
+      "cost": 350,
+      "description": "A playful and energetic Labrador in need of a loving home.",
+      "adoptionReason": "We're a family with kids and want a friendly companion for them.",
+      "age": 1,
+      "ownerName": "Sarah Johnson",
+      "contactEmail": "sarah@example.com"
+    },
+    {
+      "dogType": "German Shepherd",
+      "picture": "german-shepherd.jpg",
+      "cost": 450,
+      "description": "A loyal and protective German Shepherd looking for an experienced owner.",
+      "adoptionReason": "I'm looking for a guard dog for my property.",
+      "age": 3,
+      "ownerName": "David Wilson",
+      "contactEmail": "david@example.com"
+    },
+    {
+      "dogType": "Poodle",
+      "picture": "poodle.jpg",
+      "cost": 300,
+      "description": "A smart and hypoallergenic Poodle perfect for families with allergies.",
+      "adoptionReason": "We've always loved Poodles and want one as a family pet.",
+      "age": 2,
+      "ownerName": "Emily Davis",
+      "contactEmail": "emily@example.com"
+    },
+    {
+      "dogType": "Bulldog",
+      "picture": "bulldog.jpg",
+      "cost": 400,
+      "description": "A gentle Bulldog with a calm temperament, great with children.",
+      "adoptionReason": "We want a low-energy dog that's good with our young kids.",
+      "age": 4,
+      "ownerName": "Michael Brown",
+      "contactEmail": "michael@example.com"
+    },
+    {
+      "dogType": "Shih Tzu",
+      "picture": "shihtzu.jpg",
+      "cost": 250,
+      "description": "A cute and friendly Shih Tzu puppy, perfect for apartment living.",
+      "adoptionReason": "I live in a small apartment and want a small breed dog.",
+      "age": 6,
+      "ownerName": "Linda Martinez",
+      "contactEmail": "linda@example.com"
+    },
+    {
+      "dogType": "Dachshund",
+      "picture": "dachshund.jpg",
+      "cost": 300,
+      "description": "A playful Dachshund with a long body and short legs, great for families.",
+      "adoptionReason": "We've always loved Dachshunds and want one as a family pet.",
+      "age": 2,
+      "ownerName": "Robert Lee",
+      "contactEmail": "robert@example.com"
+    },
+    {
+      "dogType": "Husky",
+      "picture": "husky.jpg",
+      "cost": 500,
+      "description": "A Siberian Husky with striking blue eyes, known for their adventurous spirit.",
+      "adoptionReason": "I love outdoor activities and want a companion for hiking and running.",
+      "age": 1,
+      "ownerName": "Jennifer Smith",
+      "contactEmail": "jennifer@example.com"
+    },
+    {
+      "dogType": "Corgi",
+      "picture": "corgi.jpg",
+      "cost": 350,
+      "description": "An adorable Corgi with a playful personality, perfect for families.",
+      "adoptionReason": "We want a small breed dog that's great with kids.",
+      "age": 2,
+      "ownerName": "Daniel Kim",
+      "contactEmail": "daniel@example.com"
+    },
+    {
+      "dogType": "Rottweiler",
+      "picture": "rottweiler.jpg",
+      "cost": 450,
+      "description": "A strong and protective Rottweiler, loyal to its family.",
+      "adoptionReason": "I'm looking for a loyal and protective dog for security.",
+      "age": 3,
+      "ownerName": "Jessica Anderson",
+      "contactEmail": "jessica@example.com"
+    },
+    {
+      "dogType": "Boxer",
+      "picture": "boxer.jpg",
+      "cost": 400,
+      "description": "An energetic Boxer with a playful spirit, great for active families.",
+      "adoptionReason": "We're an active family and want a dog to join us on adventures.",
+      "age": 2,
+      "ownerName": "Mark Wilson",
+      "contactEmail": "mark@example.com"
+    }
+  ]
+  
