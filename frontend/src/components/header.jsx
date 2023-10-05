@@ -1,5 +1,6 @@
 import React from 'react';
-import './Header.css'; // Import your CSS file
+import '../components/Header.css'; // Import your CSS file
+
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const dogImageURL = 'https://t4.ftcdn.net/jpg/04/46/59/73/360_F_446597392_IouFARqqxFSEzCJwyRc6RXogz9ZxQNsQ.jpg'; // Provided image URL
