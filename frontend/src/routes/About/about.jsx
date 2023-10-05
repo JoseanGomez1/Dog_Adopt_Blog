@@ -3,68 +3,31 @@ import React from 'react';
 function About() {
   return (
     <div className="bg-gray-100 min-h-screen p-4">
-      <h1 className="text-3xl font-semibold mb-4">About My App</h1>
+      <h1 className="text-3xl font-semibold mb-4">About My Dog Adoption App</h1>
       <p className="text-lg mb-4">
-        Welcome to my demo project showcasing the use of Node.js, Express, and MongoDB in building a book management app.
+        Welcome to our Dog Adoption App, a platform dedicated to helping dog lovers like you experience the joy of canine companionship, even if you're on a tight budget.
       </p>
-      <p className="text-lg mb-4">Key features of the app:</p>
+
+      <p className="text-lg mb-4">
+        Key features of our app include:
+      </p>
 
       <ul className="list-disc ml-6 text-lg mb-4">
-        <li>User-friendly interface to manage books</li>
-        <li>CRUD (Create, Read, Update, Delete) operations for books</li>
-        <li>Secure and efficient storage using MongoDB</li>
-        <li>API endpoints for interacting with the book data</li>
+        <li>Affordable dog adoption options</li>
+        <li>Diverse selection of dog breeds</li>
+        <li>Comprehensive dog listings with detailed information</li>
+        <li>Streamlined adoption process</li>
+        <li>Community support and resources</li>
       </ul>
 
-      <h2 className="text-xl font-semibold mb-2">API Endpoints</h2>
-      <table className="w-full table-auto">
-        <thead>
-          <tr className="bg-gray-200">
-            <th className="px-4 py-2">Action</th>
-            <th className="px-4 py-2">URL</th>
-            <th className="px-4 py-2">HTTP</th>
-            <th className="px-4 py-2">Body</th>
-            <th className="px-4 py-2">Result</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="px-4 py-2 text-blue-500">READ</td>
-            <td className="px-4 py-2">/api/books</td>
-            <td className="px-4 py-2">GET</td>
-            <td className="px-4 py-2">Empty</td>
-            <td className="px-4 py-2">Returns ALL Books</td>
-          </tr>
-          <tr>
-            <td className="px-4 py-2 text-blue-500">READ</td>
-            <td className="px-4 py-2">/api/books/:id</td>
-            <td className="px-4 py-2">GET</td>
-            <td className="px-4 py-2">Empty</td>
-            <td className="px-4 py-2">Returns A Single Book</td>
-          </tr>
-          <tr>
-            <td className="px-4 py-2 text-green-500">CREATE</td>
-            <td className="px-4 py-2">/api/books</td>
-            <td className="px-4 py-2">POST</td>
-            <td className="px-4 py-2">JSON</td>
-            <td className="px-4 py-2">New Book Created</td>
-          </tr>
-          <tr>
-            <td className="px-4 py-2 text-orange-500">UPDATE</td>
-            <td className="px-4 py-2">/api/books/:id</td>
-            <td className="px-4 py-2">PUT</td>
-            <td className="px-4 py-2">JSON</td>
-            <td className="px-4 py-2">Updates Book</td>
-          </tr>
-          <tr>
-            <td className="px-4 py-2 text-red-500">DELETE</td>
-            <td className="px-4 py-2">/api/books/:id</td>
-            <td className="px-4 py-2">DELETE</td>
-            <td className="px-4 py-2">JSON</td>
-            <td className="px-4 py-2">Delete Book</td>
-          </tr>
-        </tbody>
-      </table>
+      <h2 className="text-xl font-semibold mb-2">Why Our App?</h2>
+      <p className="text-lg mb-4">
+        At our Dog Adoption App, we believe that the love and companionship of a dog should be accessible to everyone. Our platform is designed to cater to users who are passionate about dogs but may face financial constraints. We offer a variety of dog breeds, including Labradors, German Shepherds, Poodles, and Huskies, among others, at affordable adoption fees.
+      </p>
+
+      <p className="text-lg mb-4">
+        Our mission is to connect loving homes with dogs in need and to provide valuable resources to help you care for your new furry family member. Join our community today and embark on your journey to dog ownership!
+      </p>
     </div>
   );
 }

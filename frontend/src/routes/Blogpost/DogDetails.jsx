@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 
 function DogDetails() {
   const [dogData, setDogData] = useState({});
-  const { id } = useParams(); // Get the ID from the URL
+  const { id } = useParams(); 
 
   useEffect(() => {
     const fetchData = async () => {

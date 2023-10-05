@@ -1,9 +1,8 @@
 import React from 'react';
-import '../components/Header.css'; // Import your CSS file
+import '../components/Header.css'; 
+import { Link } from "react-router-dom"; 
 
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
-
-const dogImageURL = 'https://t4.ftcdn.net/jpg/04/46/59/73/360_F_446597392_IouFARqqxFSEzCJwyRc6RXogz9ZxQNsQ.jpg'; // Provided image URL
+const dogImageURL = 'https://thumbs.dreamstime.com/b/cute-dog-smile-face-puppies-logo-banner-t-shirt-designs-print-etc-179313090.jpg'; // Provided image URL
 
 const Header = () => {
   return (
@@ -15,19 +14,19 @@ const Header = () => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link to="/" className="bg-blue-500 text-white px-2 py-1 rounded">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about">About</Link>
+            <Link to="/about" className="bg-blue-500 text-white px-2 py-1 rounded">About</Link>
           </li>
           <li className="nav-item">
-            <Link to="/blogpost">Blog</Link>
+            <Link to="/blogpost" className="bg-blue-500 text-white px-2 py-1 rounded">Blog</Link>
           </li>
           <li className="nav-item">
-            {/* Add the Create Blog Post link */}
-            <Link to="/create">Create Blog Post</Link>
+            {}
+            <Link to="/create" className="bg-blue-500 text-white px-2 py-1 rounded">Create Blog Post</Link>
           </li>
-          {/* Add more navigation links as needed */}
+          {}
         </ul>
       </nav>
     </header>

@@ -1,7 +1,7 @@
 /* Styling for the header component */
 .header {
-  background-color: #1e88e5; /* Set your background color */
-  color: white;
+  background-color: #efefef75; /* Set your background color */
+  color: rgb(114, 18, 18);
   padding: 10px 0;
 }
 
@@ -35,7 +35,7 @@
 /* Style navigation links as buttons */
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: rgb(176, 14, 14);
   font-weight: bold;
   background-color: #3f83f8; /* Background color for buttons */
   padding: 10px 20px; /* Adjust padding for buttons */
@@ -46,5 +46,5 @@
 /* Style navigation links on hover */
 .nav-link:hover {
   text-decoration: none;
-  background-color: #1c4ca0; /* Change the background color on hover */
+  background-color: #50196e; /* Change the background color on hover */
 }
