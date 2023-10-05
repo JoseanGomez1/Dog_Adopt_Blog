@@ -5,11 +5,11 @@
 Welcome to the Dog Adoption App! This web application allows users to browse and adopt dogs in need of a loving home. It provides a platform for dog lovers to connect with dog owners looking to find new homes for their pets.
 
 ## Screenshot(s)
-!![Screenshot 1](./Sceenshots/Screen%20Shot%202023-10-05%20at%2012.20.58%20PM.png)
-![Screenshot 2](./Screen%20Shot%202023-10-05%20at%2012.21.06%20PM.png)
-![Screenshot 3](./Screen%20Shot%202023-10-05%20at%2012.21.27%20PM.png)
-![Screenshot 4](./Screen%20Shot%202023-10-05%20at%2012.21.36%20PM.png)
-
+![Alt text](<Sceenshots/Screen Shot 2023-10-05 at 12.20.58 PM.png>)
+![Alt text](<Sceenshots/Screen Shot 2023-10-05 at 12.21.06 PM.png>)
+![Alt text](<Sceenshots/Screen Shot 2023-10-05 at 12.21.27 PM.png>)
+![Alt text](<Sceenshots/Screen Shot 2023-10-05 at 12.21.36 PM.png>)
+![Alt text](<Sceenshots/Screen Shot 2023-10-05 at 12.21.44 PM.png>)
 
 ## Technologies Used
 

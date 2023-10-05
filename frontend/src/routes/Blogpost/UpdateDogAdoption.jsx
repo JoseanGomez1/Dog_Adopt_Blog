@@ -1,83 +1,3 @@
-// import React, { useState, useEffect } from "react";
-// import { Link, useParams } from "react-router-dom";
-
-// function UpdateDogAdoption() {
-//   const [formData, setFormData] = useState({
-//     dogType: "",
-//     picture: "",
-//     cost: 0,
-//     description: "",
-//     age: 0,
-//     ownerName: "",
-//     contactEmail: "",
-//   });
-//   const { id } = useParams(); // Get the ID from the URL
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       try {
-//         const response = await fetch(`http://localhost:4000/api/dogadoptions/${id}`);
-
-//         if (!response.ok) {
-//           throw new Error("Failed to fetch data.");
-//         }
-
-//         const jsonData = await response.json();
-//         setFormData(jsonData);
-//       } catch (error) {
-//         console.error(error);
-//       }
-//     };
-//     fetchData();
-//   }, [id]);
-
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData({
-//       ...formData,
-//       [name]: value,
-//     });
-//   };
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-
-//     try {
-//       const response = await fetch(`http://localhost:4000/api/dogadoptions/${id}`, {
-//         method: "PUT",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify(formData),
-//       });
-
-//       if (!response.ok) {
-//         throw new Error("Failed to update the dog adoption entry.");
-//       }
-
-//       // Redirect to the details page after successful update
-//       window.location.href = `/dog/${id}`;
-//     } catch (error) {
-//       console.error(error);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <Link to={`/dog/${id}`}>🔙 Back to Dog Details</Link>
-//       <div className="update-dog">
-//         <h1>Update Dog Adoption Entry</h1>
-//         <form onSubmit={handleSubmit}>
-//           {/* Add your form fields for updating the data */}
-//         </form>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default UpdateDogAdoption;
-
-
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
@@ -91,7 +11,7 @@ function UpdateDogAdoption() {
     ownerName: "",
     contactEmail: "",
   });
-  const { id } = useParams(); // Get the ID from the URL
+  const { id } = useParams(); 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -135,7 +55,7 @@ function UpdateDogAdoption() {
         throw new Error("Failed to update the dog adoption entry.");
       }
 
-      // Redirect to the details page after successful update
+
       window.location.href = `/dog/${id}`;
     } catch (error) {
       console.error(error);
